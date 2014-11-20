@@ -65,6 +65,7 @@
             "description": "Review of the item (legacy spelling; see singular form, review).",
             "type": "array",
             "items": {
+		"type": "object",
                 "$ref": "Review.json"
             }
         },
